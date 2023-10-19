@@ -1,5 +1,5 @@
 {
-  "name": "rsa-crypto-js",
+  "name": "@jinx_ark/rsa-crypto-js",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
