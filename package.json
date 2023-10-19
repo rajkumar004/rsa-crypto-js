@@ -1,0 +1,19 @@
+{
+  "name": "rsa-crypto-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rajkumar004/rsa-crypto-js.git"
+  },
+  "author": "Rajkumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajkumar004/rsa-crypto-js/issues"
+  },
+  "homepage": "https://github.com/rajkumar004/rsa-crypto-js#readme"
+}
