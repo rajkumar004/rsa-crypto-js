@@ -27,7 +27,7 @@ async function encryptRSA(cb, config) { // config = {publicKey, data(string)}
 	cb(ab2str(encryptedData));
 }
 
-async function decryptRSA(cb, config) { // config = {publicKey, data(string)}
+async function decryptRSA(cb, config) { // config = {privateKey, data(string)}
 	const decryptedData = await window.crypto.subtle.decrypt(
 		{
 			name: "RSA-OAEP",
