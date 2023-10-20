@@ -26,7 +26,8 @@ generateKey(
 );
 ```
 ```javascript
-Syntax: generaeKey(cb, {config(obj)})
+Syntax: generateKey(cb, config)
+-------------------------------
 config: {
     modulusLength: <it can be 1024, 2048, or 4096>,
     hashName: <it can be "SHA-1", "SHA-256", "SHA-384", or "SHA-512">
@@ -43,6 +44,7 @@ encryptRSA(data => {
 ```
 ```javascript
 Syntax: encryptRSA(cb, config)
+------------------------------
 config: {
     publicKey: <your generated pubickey>,
     data: <string>
@@ -60,6 +62,7 @@ decryptRSA(data => {
 ```
 ```javascript
 Syntax: decryptRSA(cb, config)
+------------------------------
 config: {
     privateKey: <your generated private-key>,
     data: <string>
